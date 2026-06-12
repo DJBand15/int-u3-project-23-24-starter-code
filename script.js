@@ -11,19 +11,19 @@
         document.querySelector('.option-six').style.display = "none";
          document.querySelector('.option-zero').style.display = "none";
 
-const music = new Audio('./music.mp3.mp3');
-music.muted = false;
-music.volume = 1;
-music.loop = true;
+// const music = new Audio('./music.mp3.mp3');
+// music.muted = false;
+// music.volume = 1;
+// music.loop = true;
 
-// 2. Play it immediately on load
-music.play()
-    .then(() => {
-        console.log("Autoplay started successfully.");
-    })
-    .catch(error => {
-        console.log("Autoplay was blocked:", error);
-    });
+// // 2. Play it immediately on load
+// music.play()
+//     .then(() => {
+//         console.log("Autoplay started successfully.");
+//     })
+//     .catch(error => {
+//         console.log("Autoplay was blocked:", error);
+//     });
 
 document.querySelector('.option-zero').addEventListener('click', function(){
  document.querySelector('.option-one-screen').style.display = "none";
