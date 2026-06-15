@@ -22,7 +22,7 @@ body {
 /* Style the body with a background color or image if desired */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -34,21 +34,21 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #222;
+    color: #ffffff;
     font-family: 'Impact', 'Anton', Arial, sans-serif;
-    text-shadow: 2px 2px 0 #000, 4px 4px 10px rgba(0,0,0,0.6);
-    -webkit-text-stroke: 1px #111;
-    background: linear-gradient(90deg, #e6e6e6 0%, #cfcfcf 50%, #e6e6e6 100%);
+    text-shadow: 2px 2px 0 #f929e1, 4px 4px 10px rgba(255, 72, 215, 0.6);
+    -webkit-text-stroke: 1px hsl(196, 95%, 54%);
+    background: linear-gradient(90deg, #08d5f0 0%, #f413bc 50%, #41dbf6 100%);
     display: inline-block;
     padding: 6px 14px;
     border-radius: 6px;
-    box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 6px 10px rgba(0, 225, 255, 0.4);
 }
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border: 1px solid #fffefe;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -77,12 +77,12 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
+    background: linear-gradient(90deg, #08d5f0 0%, #f413bc 50%, #41dbf6 100%);
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: filter 0.3s ease;
 }
 
 button:hover {
